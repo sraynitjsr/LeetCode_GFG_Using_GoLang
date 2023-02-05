@@ -11,4 +11,5 @@ func main() {
 	startFive()
 	startSix()
 	startSeven()
+	startEight()
 }
