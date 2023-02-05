@@ -16,7 +16,8 @@ func maxProfit(prices []int) int {
 	return maxProfit
 }
 
-func main() {
+func startOne() {
+	fmt.Println("\nInside One")
 	mySlice := []int{7, 1, 5, 3, 6, 4}
 	fmt.Println(maxProfit(mySlice))
 }

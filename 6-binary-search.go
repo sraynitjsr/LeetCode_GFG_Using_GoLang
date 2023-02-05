@@ -21,7 +21,8 @@ func getIndexOfKey(data []int, key int) int {
 	}
 }
 
-func main() {
+func startSix() {
+	fmt.Println("\nInside Six")
 	fmt.Println("Binary Search on Sorted Array")
 	mySlice := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	fmt.Println(getIndexOfKey(mySlice, 2))

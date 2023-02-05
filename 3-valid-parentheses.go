@@ -20,7 +20,8 @@ func (myStack *MyStack) pop() string {
 	return topData
 }
 
-func main() {
+func startThree() {
+	fmt.Println("\nInside Three")
 	myEmptyStack := &MyStack{
 		data: []string{},
 	}

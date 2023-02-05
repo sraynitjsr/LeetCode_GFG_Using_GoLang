@@ -57,10 +57,10 @@ func printIntersection(hs *MyHashSet, slice1, slice2 []int) {
 	fmt.Println("")
 }
 
-func main() {
+func startFour() {
+	fmt.Println("\nInside Four")
 	slice1 := []int{1, 3, 20, -39, 45, -34, 67, 100}
 	slice2 := []int{2020, -39, 56, 45, 78, 2, 22, 2}
 	printUnion(&MyHashSet{}, slice1, slice2)
 	printIntersection(&MyHashSet{}, slice1, slice2)
 }
-

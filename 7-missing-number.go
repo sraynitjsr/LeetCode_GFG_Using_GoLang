@@ -12,7 +12,8 @@ func missingNumber(nums []int) int {
 	return expectedSum - actualSum
 }
 
-func main() {
+func startSeven() {
+	fmt.Println("\nInside Seven")
 	data := []int{0, 3, 1}
 	fmt.Println(missingNumber(data))
 }

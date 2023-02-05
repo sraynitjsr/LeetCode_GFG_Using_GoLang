@@ -25,7 +25,8 @@ func (dataSet *DataSet) checkFrequency() {
 	fmt.Println("No Duplicates Found")
 }
 
-func main() {
+func startTwo() {
+	fmt.Println("\nInside Two")
 	mySlice := []int{1, 1}
 	tempMap := make(map[int]int)
 	hs := &DataSet{

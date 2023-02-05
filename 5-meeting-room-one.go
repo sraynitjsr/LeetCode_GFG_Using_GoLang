@@ -10,7 +10,8 @@ type Interval struct {
 	endTime   int
 }
 
-func main() {
+func startFive() {
+	fmt.Println("\nInside Five")
 	intervals := []Interval{
 		{
 			startTime: 10,
