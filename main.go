@@ -12,5 +12,6 @@ func main() {
 	// startSix()
 	// startSeven()
 	// startEight()
-	startNine()
+	// startNine()
+	startTen()
 }
