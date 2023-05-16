@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func hashingSolution(slice []int, target int) {
 	fmt.Print("Using Hashing, ")
@@ -14,7 +17,7 @@ func hashingSolution(slice []int, target int) {
 		for j := i + 1; j < len(slice); j++ {
 			index, present := myMap[target-slice[i]-slice[j]]
 			if present {
-				fmt.Println("Found Triplet =>", slice[index], slice[i], slice[j])
+				fmt.Println("Found Triplet =>", slice[index], slice[i], slice[j], " for target", target)
 				return
 			}
 		}
@@ -23,7 +26,27 @@ func hashingSolution(slice []int, target int) {
 }
 
 func sortingSolution(slice []int, target int) {
-	fmt.Println("Using Sorting")
+	fmt.Print("Using Sorting, ")
+
+	sort.Slice(slice, func(i, j int) bool {
+		return slice[i] < slice[j]
+	})
+
+	rightIndex := len(slice) - 1
+	for i := 0; i < len(slice); i++ {
+		leftIndex := i + 1
+		for leftIndex < rightIndex {
+			if slice[i]+slice[leftIndex]+slice[rightIndex] == target {
+				fmt.Println("Triplet Found =>", slice[i], slice[leftIndex], slice[rightIndex])
+				return
+			} else if slice[i]+slice[leftIndex]+slice[rightIndex] < target {
+				leftIndex++
+			} else {
+				rightIndex--
+			}
+		}
+		fmt.Println("No Triplets Found")
+	}
 }
 
 func threeSum() {
