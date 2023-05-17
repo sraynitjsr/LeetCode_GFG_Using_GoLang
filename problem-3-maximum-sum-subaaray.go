@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func kadanesAlgorithm() {
+func maximumSumSubArray() {
 	myData := []int{-2, -3, 4, -1, -2, 1, 5, -3}
 	var max_so_far = math.MinInt
 	var max_ending_here = 0
