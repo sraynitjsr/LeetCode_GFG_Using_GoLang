@@ -11,4 +11,6 @@ func main() {
 	
 	intSlice := []int{2, 5, 3, 6, 4}
 	fmt.Println("Checking for missing number is =>", blind75.MissingNumber(intSlice))
+
+	fmt.Println("Checking for duplicetae keys in an array", blind75.ContainsDuplicate())
 }
