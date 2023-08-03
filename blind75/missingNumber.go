@@ -3,7 +3,6 @@ package blind75
 import "fmt"
 
 func MissingNumber(nums []int) int {
-    fmt.Println(nums)
     actualSum := 0
     length := len(nums)
     fmt.Println(length)
