@@ -13,4 +13,6 @@ func main() {
 	fmt.Println("Checking for missing number is =>", blind75.MissingNumber(intSlice))
 
 	fmt.Println("Two Sum Pair =>", blind75.TwoSum(intSlice, 11))
+
+	blind75.MaxSumSubArray()
 }
