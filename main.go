@@ -15,4 +15,6 @@ func main() {
 	fmt.Println("Two Sum Pair =>", blind75.TwoSum(intSlice, 11))
 
 	blind75.MaxSumSubArray()
+
+	blind75.Triplet()
 }
