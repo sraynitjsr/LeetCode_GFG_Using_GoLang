@@ -17,4 +17,6 @@ func main() {
 	blind75.MaxSumSubArray()
 
 	blind75.Triplet()
+
+	blind75.CoinChange()
 }
