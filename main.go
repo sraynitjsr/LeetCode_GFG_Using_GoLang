@@ -10,5 +10,11 @@ func main() {
 	fmt.Println("This is blind75 DSA question solutions repo")
 
 	fmt.Println("\nTwo Sum Problem")
-	blind75.Start()
+	blind75.TwoSum()
+
+	fmt.Println("\nTwo Sum Problem")
+	blind75.StockBuySell()
+
+	fmt.Println("\nTwo Sum Problem")
+	blind75.ContainsDuplicate()
 }
