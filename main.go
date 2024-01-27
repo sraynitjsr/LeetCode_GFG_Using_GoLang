@@ -12,9 +12,9 @@ func main() {
 	fmt.Println("\nTwo Sum Problem")
 	blind75.TwoSum()
 
-	fmt.Println("\nTwo Sum Problem")
+	fmt.Println("\nStock Buy Sell Problem")
 	blind75.StockBuySell()
 
-	fmt.Println("\nTwo Sum Problem")
+	fmt.Println("\nContains Duplicate Problem")
 	blind75.ContainsDuplicate()
 }
