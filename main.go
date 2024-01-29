@@ -17,4 +17,7 @@ func main() {
 
 	fmt.Println("\nContains Duplicate Problem")
 	blind75.ContainsDuplicate()
+
+	fmt.Println("\nProduct of Array Except Self")
+	blind75.ProductExceptSelf()
 }
