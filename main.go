@@ -20,4 +20,7 @@ func main() {
 
 	fmt.Println("\nProduct of Array Except Self")
 	blind75.ProductExceptSelf()
+
+	fmt.Println("\nMaximum Sum Sub Array")
+	blind75.MaxSumSubArray()
 }
