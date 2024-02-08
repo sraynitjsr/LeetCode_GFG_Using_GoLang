@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	blind75 "github.com/sraynitjsr/blind75"
+	blind75 "github.com/sraynitjsr/gfg"
 )
 
 func main() {
@@ -23,4 +24,7 @@ func main() {
 
 	fmt.Println("\nMaximum Sum Sub Array")
 	blind75.MaxSumSubArray()
+
+	fmt.Pritln("\nSort reverse around middle of an array")
+	gfg.SortReverseAroudMiddle()
 }
