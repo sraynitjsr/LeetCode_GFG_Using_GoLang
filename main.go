@@ -27,4 +27,7 @@ func main() {
 
 	fmt.Pritln("\nSort reverse around middle of an array")
 	gfg.SortReverseAroudMiddle()
+
+	fmt.Pritln("\nMinimum fibonacci terms with sum equal to K")
+	gfg.MinimumFibonacciNumbersEqualToK()	
 }
