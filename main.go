@@ -29,5 +29,8 @@ func main() {
 	gfg.SortReverseAroudMiddle()
 
 	fmt.Pritln("\nMinimum fibonacci terms with sum equal to K")
-	gfg.MinimumFibonacciNumbersEqualToK()	
+	gfg.MinimumFibonacciNumbersEqualToK()
+
+	fmt.Println("\nRemove fibonacci numbers from array")
+	gfg.RemoveFibonacciNumbersFromArray()
 }
