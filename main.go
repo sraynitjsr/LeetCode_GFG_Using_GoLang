@@ -33,4 +33,7 @@ func main() {
 
 	fmt.Println("\nRemove fibonacci numbers from array")
 	gfg.RemoveFibonacciNumbersFromArray()
+
+	fmt.Println("\n")
+	gfg.MinIncrementToMakeNonIncreasing()
 }
