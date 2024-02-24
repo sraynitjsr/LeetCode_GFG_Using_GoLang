@@ -36,4 +36,7 @@ func main() {
 
 	fmt.Println("\n")
 	gfg.MinIncrementToMakeNonIncreasing()
+
+	fmt.Println("\n")
+	gfg.SmallestSubsetWithSumGreater()
 }
