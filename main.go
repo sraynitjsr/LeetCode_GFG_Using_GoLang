@@ -39,4 +39,7 @@ func main() {
 
 	fmt.Println("\n")
 	gfg.SmallestSubsetWithSumGreater()
+	
+	fmt.Println("\nTriplet Sum Problem")
+	blind75.TripletSum()
 }
