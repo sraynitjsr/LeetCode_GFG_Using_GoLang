@@ -45,4 +45,7 @@ func main() {
 
 	fmt.Println("\nAnagram Validation Problem")
 	blind75.Anagram()
+
+	fmt.Println("\nGroup Anagram Validation Problem")
+	blind75.GroupAnagram()	
 }
