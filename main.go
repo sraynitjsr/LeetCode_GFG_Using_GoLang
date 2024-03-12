@@ -42,4 +42,7 @@ func main() {
 	
 	fmt.Println("\nTriplet Sum Problem")
 	blind75.TripletSum()
+
+	fmt.Println("\nAnagram Validation Problem")
+	blind75.Anagram()
 }
