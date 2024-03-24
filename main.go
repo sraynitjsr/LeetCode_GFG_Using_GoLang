@@ -39,6 +39,9 @@ func main() {
 
 	fmt.Println("\n")
 	gfg.SmallestSubsetWithSumGreater()
+
+	fmt.Println("\n")
+	gfg.CountNumbersMatchingEquationCriteria()
 	
 	fmt.Println("\nTriplet Sum Problem")
 	blind75.TripletSum()
