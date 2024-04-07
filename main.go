@@ -54,4 +54,7 @@ func main() {
 
 	fmt.Println("\nMissing Number Problem")
 	blind75.MissingNumber()
+
+	fmt.Println("\nSearch in Rotated Array")
+	blind75.SearchRotatedArray()	
 }
