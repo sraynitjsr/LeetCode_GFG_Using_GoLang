@@ -45,6 +45,9 @@ func main() {
 
 	fmt.Println("\n")
 	gfg.CountNumbersMatchingEquationCriteria()
+
+	fmt.Println("\Rabin-Karp Algorithm for Pattern Searching")
+	gfg.RabinKarpAlgorithm()
 	
 	fmt.Println("\nTriplet Sum Problem")
 	blind75.TripletSum()
@@ -59,5 +62,5 @@ func main() {
 	blind75.MissingNumber()
 
 	fmt.Println("\nSearch in Rotated Array")
-	blind75.SearchRotatedArray()	
+	blind75.SearchRotatedArray()
 }
