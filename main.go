@@ -50,7 +50,7 @@ func main() {
 	gfg.RabinKarpAlgorithm()
 
 	fmt.Println("\nMinimum and Maximum Amount to Buy All Candies")
-	gfg.MinMaxCandie()
+	gfg.MinMaxCandy()
 	
 	fmt.Println("\nTriplet Sum Problem")
 	blind75.TripletSum()
