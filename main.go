@@ -46,8 +46,11 @@ func main() {
 	fmt.Println("\n")
 	gfg.CountNumbersMatchingEquationCriteria()
 
-	fmt.Println("\Rabin-Karp Algorithm for Pattern Searching")
+	fmt.Println("\nRabin-Karp Algorithm for Pattern Searching")
 	gfg.RabinKarpAlgorithm()
+
+	fmt.Println("\nMinimum and Maximum Amount to Buy All Candies")
+	gfg.MinMaxCandie()
 	
 	fmt.Println("\nTriplet Sum Problem")
 	blind75.TripletSum()
