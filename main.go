@@ -66,4 +66,7 @@ func main() {
 
 	fmt.Println("\nSearch in Rotated Array")
 	blind75.SearchRotatedArray()
+
+	fmt.Println("\nLowest Common Ancestor in a Binary Search Tree")
+	blind75.LCABST()
 }
